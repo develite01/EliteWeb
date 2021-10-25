@@ -1,0 +1,34 @@
+.containerMenu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 60%;
+    align-items: center;
+}
+
+.menu-link{
+    text-decoration: none;
+    color: white;
+    padding: 13px 40px;
+    font-size: 1rem;
+    display: block;
+    cursor: pointer;
+}
+
+.menu-link:hover{
+    text-decoration: underline;
+    color: #ececec;
+}
+
+.login{
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.login:hover{
+    text-decoration: none;
+    color: #7F51CF;
+    background-color: rgba(236, 236, 236, 0.9);
+    cursor: pointer;
+    
+}
